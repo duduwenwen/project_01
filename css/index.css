@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+em,
+i {
+    font-style: normal
+}
+/* 1 */
+.top_nav {
+    height: 30px;
+    font-size: 12px;
+
+    background-color: #e3e4e5;
+}
+
+.adress {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 8px;
+}
+
+
+.top_nav_right {
+    float: left;
+    margin-left: 335px;
+}
+
+.top_nav_right li {
+    float: left;
+    height: 12px;
+    line-height: 12px;
+    padding-left: 15px;
+    margin-top: 8px;
+    margin-left: 15px;
+    border-left: 1px solid gray;
+    color: #666;
+}
+
+.red a {
+    color: red;
+}
+/* 2 */

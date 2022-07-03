@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?mf9u0d');
+    src: url('../fonts/icomoon.eot?mf9u0d#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?mf9u0d') format('truetype'),
+        url('../fonts/icomoon.woff?mf9u0d') format('woff'),
+        url('../fonts/icomoon.svg?mf9u0d#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -16,10 +28,21 @@ a {
     color: #666;
     text-decoration: none;
 }
+
 em,
 i {
     font-style: normal
 }
+
+button {
+    cursor: pointer;
+
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
 /* 1 */
 .top_nav {
     height: 30px;
@@ -55,4 +78,255 @@ i {
 .red a {
     color: red;
 }
+
 /* 2 */
+.white {
+    background-color: white;
+    height: 125px;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.search_left {
+    float: left;
+
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: 0px 25px;
+}
+
+.search_middle {
+    float: left;
+    width: 504px;
+    margin-left: 120px;
+}
+
+.search_input {
+    float: left;
+    width: 500px;
+    height: 35px;
+    border: 2px solid #c14b6d;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+
+.search_input input {
+    float: left;
+    width: 450px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    color: #666;
+}
+
+.search_input input:focus {
+    color: black;
+}
+
+.search_input button {
+    float: left;
+    height: 35px;
+    width: 50px;
+    border: 0;
+    color: aliceblue;
+    font-weight: 700px;
+    font-size: 16px;
+    background-color: #c14b6d;
+}
+
+.search_nav {
+    float: left;
+}
+
+.search_nav li {
+    float: left;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.search_right {
+    position: relative;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    border: 1px solid #c14b6d;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.search_right span {
+    font-family: 'icomoon';
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+/* 3 */
+.middle_nav {
+    height: 25px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    background-color: #fff;
+}
+.middle_nav ul{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.middle_nav li {
+    float: left;
+    margin: 0 15px;
+    font-size: 15px;
+
+}
+
+.middle_nav .one {
+    color: #e60012;
+}
+
+/* 4.main主模块 */
+.main {
+    margin-top: 10px;
+    height: 500px;
+}
+
+.main_left {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin-top: 4px;
+}
+.main_left li{
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    /* border-radius: 5px; */
+    padding-left: 8px;
+    font-size: 14px;
+}
+.main_left li:hover{
+    background-color: #cdcdcd;
+}
+
+/* 4.2轮播图main_middle */
+.main_middle {
+    float: left;
+    width: 721px;
+    height: 455px;
+    margin-left: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+
+/* 底部模块 */
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+.links a {
+    margin: 0 3px;
+}

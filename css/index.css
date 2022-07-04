@@ -36,7 +36,7 @@ i {
 
 button {
     cursor: pointer;
-
+    
 }
 
 body {
@@ -205,6 +205,7 @@ body {
     float: left;
     width: 200px;
     margin-top: 4px;
+    margin-left: 120px;
 }
 .main_left li{
     height: 30px;
@@ -286,8 +287,90 @@ body {
     background-color: #fff;
 }
 
+/* 5.商品展示区域  */
 
-/* 底部模块 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd  h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+  
+}
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210  ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210  ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 200px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 6.底部模块 */
 .footer {
     height: 415px;
     background-color: #f5f5f5;
